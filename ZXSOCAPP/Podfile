@@ -1,0 +1,55 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+inhibit_all_warnings!# 忽略引入库的所有警告
+use_frameworks!
+
+target 'ZXSOCAPP' do
+
+  # 第三平台
+  pod 'Hyphenate' # 环信
+  pod 'JPush' # 极光推送
+
+  # 常用第三方
+  pod 'Masonry'
+  pod 'SDAutoLayout' # 布局
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'SDWebImage/GIF'
+  pod 'FLAnimatedImage' # iOS的高性能动画GIF引擎
+  pod 'MJExtension'
+  pod 'MJRefresh'
+  pod 'MBProgressHUD'
+  pod 'SVProgressHUD'
+  pod 'YYKit'
+  pod 'Bugly' # 异常上报和运营统计
+  pod 'MWPhotoBrowser' # 一个简单的iOS照片和视频浏览器，具有网格视图，标题和选择
+  pod 'CocoaAsyncSocket' #socket
+  pod 'FMDB'
+  pod 'RealReachability' #监听网络 比Reachability更准确
+
+  # 控件
+  pod 'iVersion' # 版本更新
+  pod 'EAIntroView' # 引导页
+  pod 'TYPagerController' # 滑动导航控制器
+  pod 'SDCycleScrollView' # 轮播图
+  pod 'CQCountDownButton' # 倒计时按钮
+  pod 'WSLNativeScanTool' # 二维码扫描工具
+  pod 'LEEAlert' #自定义Alert ActionSheet
+  pod 'UITableView+FDTemplateLayoutCell' #cell高度自适应
+  pod 'TZImagePickerController' #一个支持多选、选原图和视频的图片选择器，同时有预览、裁剪功能
+  pod 'pop' #动画引擎,在基本静态动画的基础上增加的弹簧动画与衰减动画。
+  pod 'BRPickerView'#日期选择器、时间选择器、地址选择器、自定义单列字符串选择器、自定义多列字符串选择器
+  pod 'IQKeyboardManager'#键盘
+  pod 'Popover.OC' #一款优雅好用的类似QQ和微信消息页面的右上角微型菜单弹窗
+  pod 'YTKKeyValueStore' #一个简单的键值存储工具，使用Sqlite作为后端。(猿题库)
+  pod 'FTPopOverMenu' #iOS的弹出菜单
+  pod 'PYSearch' #搜索框架
+  pod 'Charts' #适用于iOS/tvOS/OSX的漂亮图表
+  pod 'TYPagerController' #滑动导航控制器  
+  pod 'CRBoxInputView' #短信验证码&密码输入框
+  pod 'Harpy' #版本更新库
+  pod 'SGQRCode' #二维码
+  pod 'VoiceConvert' #iOS音频文件转换
+  
+  
+end
